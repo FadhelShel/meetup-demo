@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import Head from "next/head";
+//import Head from "next/head";
 import { MongoClient, ObjectId } from "mongodb";
-import classes from "../../components/meetups/MeetupDetail.module.css";
+//import classes from "../../components/meetups/MeetupDetail.module.css";
 function MeetupDetail(props) {
   return (
     <Fragment>
-      <Head>
+      {/* <Head>
         <title>{props.meetup.title} </title>
         <meta name="description" content={props.meetup.description} />
       </Head>
@@ -14,7 +14,7 @@ function MeetupDetail(props) {
         <h1>{props.meetup.title}</h1>
         <address>{props.meetup.address}</address>
         <p>{props.meetup.description}</p>
-      </section>
+      </section> */}
     </Fragment>
   );
 }
