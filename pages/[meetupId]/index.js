@@ -2,7 +2,7 @@ import { Fragment } from "react";
 //import Head from "next/head";
 import { MongoClient, ObjectId } from "mongodb";
 //import classes from "../../components/meetups/MeetupDetail.module.css";
-function MeetupDetail(props) {
+function MeetupDetail(/*props*/) {
   return (
     <Fragment>
       {/* <Head>
@@ -34,7 +34,7 @@ export async function getStaticPaths() {
     })),
   };
 }
-
+/*
 export async function getStaticProps(context) {
   // fetch data
   const meetupId = context.params.meetupId;
@@ -46,7 +46,6 @@ export async function getStaticProps(context) {
   const id = ObjectId(meetupId);
   const selectedMeetup = await meetupsCollection.findOne({ _id: id });
   client.close;
-  console.log(selectedMeetup);
   return {
     props: {
       meetup: {
@@ -59,5 +58,5 @@ export async function getStaticProps(context) {
     },
   };
 }
-
+*/
 export default MeetupDetail;
