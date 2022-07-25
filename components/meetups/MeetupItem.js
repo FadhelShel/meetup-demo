@@ -3,7 +3,7 @@ import classes from "./MeetupItem.module.css";
 //import { useRouter } from "next/router";
 
 function MeetupItem(props) {
-  const router = useRouter();
+ // const router = useRouter();
 
   function showDetailHandler() {
    // router.push("/" + props.id);
