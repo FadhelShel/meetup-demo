@@ -1,5 +1,5 @@
 import NewMeetupForm from "../../components//meetups/NewMeetupForm";
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 import { Fragment } from "react";
 import Head from "next/head";
 function NewMeetupPage() {
@@ -14,7 +14,7 @@ function NewMeetupPage() {
     });
     const data = await response.json();
     console.log(data);
-    router.replace("/");
+   // router.replace("/");
   }
 
   return (
