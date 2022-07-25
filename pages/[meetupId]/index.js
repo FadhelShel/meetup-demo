@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import { MongoClient, ObjectId } from "mongodb";
-import classes from "../../components/meetups/meetupDetail.module.css";
+import classes from "../../components/meetups/MeetupDetail.module.css";
 function MeetupDetail(props) {
   return (
     <Fragment>
